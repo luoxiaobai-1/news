@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>leaduser-user</module>
+        <module>leadnews-aricle</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

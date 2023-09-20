@@ -1,4 +1,4 @@
-package com.me.user;
+package com.me.article;
 
 
 import org.mybatis.spring.annotation.MapperScan;
@@ -12,6 +12,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class userApplication {
     public static void main(String[] args) {
         SpringApplication.run(userApplication.class);
+
 
     }
 }

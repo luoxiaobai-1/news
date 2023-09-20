@@ -8,11 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="heima-leadnews-test" />
         <module name="leaduser-user" />
+        <module name="app-gateway" />
+        <module name="leadnews-aricle" />
         <module name="heima-leadnews-utils" />
         <module name="heima-leadnews-feign-api" />
         <module name="heima-leadnews-common" />
         <module name="heima-leadnews-model" />
-        <module name="heima-leadnews-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-gateway" options="-parameters" />
       <module name="heima-leadnews" options="-parameters" />
       <module name="heima-leadnews-apis" options="-parameters" />
       <module name="heima-leadnews-common" options="-parameters" />
@@ -30,6 +32,7 @@
       <module name="heima-leadnews-service" options="-parameters" />
       <module name="heima-leadnews-test" options="-parameters" />
       <module name="heima-leadnews-utils" options="-parameters" />
+      <module name="leadnews-aricle" options="-parameters" />
       <module name="leaduser-user" options="-parameters" />
     </option>
   </component>
